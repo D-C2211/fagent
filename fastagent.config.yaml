@@ -39,5 +39,5 @@ mcp:
             command: "npx"
             args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
         mealserver:
-            command: "uv"
-            args: ["--directory", "C:\\mcp\\mealserver", "run", "mealserver.py"]
+            command: "python"
+            args: ["C:\\mcp\\mealserver\\mealserver.py"]
