@@ -9,7 +9,7 @@ This repository contains examples of using the FastAgent framework with the Meal
 
 ## Examples
 
-This repository includes two example scripts that demonstrate how to use the mealserver:
+This repository includes three example scripts that demonstrate how to use the mealserver:
 
 ### Basic Example (mealserver_example.py)
 
@@ -17,6 +17,14 @@ This example creates a simple interactive agent that can use the mealserver to p
 
 ```bash
 python mealserver_example.py
+```
+
+### Streamlit GUI Example (mealserver_gui.py)
+
+This example provides a web-based GUI using Streamlit for interacting with the mealserver.
+
+```bash
+streamlit run mealserver_gui.py
 ```
 
 ### Advanced Example (mealserver_advanced.py)
